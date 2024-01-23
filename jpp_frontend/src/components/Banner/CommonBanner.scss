@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+.commonBannerRow{
+    background-color: #75143a;
+}
+.commonBanner{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1)),url('../../essets//images/commonBanner.webp');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h1{
+        font-size: 100px;
+        color: white;
+        font-family: 'Play', sans-serif;
+        text-shadow: 5px 2px 5px gray;
+        font-weight: bold;
+    }
+}
+
+@media (max-width:500px){
+    .commonBanner{
+        h1{
+            font-size: 50px;
+        }
+    }
+}
+@media (max-width:300px){
+    .commonBanner{
+        h1{
+            font-size: 30px;
+        }
+    }
+}

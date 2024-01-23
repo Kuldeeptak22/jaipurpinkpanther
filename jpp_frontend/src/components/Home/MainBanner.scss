@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600&display=swap');
+
+.mainBannerRow{
+    background-color: #c51f57;
+
+}
+.mainBanner{
+        background: url('../../essets//images/mainBanner.jpg');
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-top: 7rem;
+       
+        .ROARFORPANTHERS{
+            font-family: 'Oswald', sans-serif;
+            font-weight: 500;
+            background: linear-gradient(to right, #b92b27, 
+            #094488, #0a9168, #eedd44); 
+            -webkit-text-fill-color: transparent; 
+            -webkit-background-clip: text; 
+        }
+}
+

@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+.playerData{
+    .playerName{
+        font-size: 5rem;    
+        font-family: 'Bebas Neue', sans-serif;
+        letter-spacing: 1.2rem;
+        text-align: center;
+        padding-top: 10rem;
+    }
+    .playerImage{
+        max-height: 50vh;
+        margin-top: -2rem;
+    }
+    .playerNumber{
+        color: #e34573;
+        font-size: 5rem;
+        font-family: 'Bebas Neue', sans-serif;
+        text-shadow: 2px 2px 4px white;
+    }
+    .playerRole{
+        font-family: 'Bebas Neue', sans-serif;
+        letter-spacing: 0.8rem;
+    }
+}
+.playerInfo{
+    font-family: 'Play', sans-serif;
+    // letter-spacing: 0.8rem;
+}
+
+@media (max-width:767px){
+    .playerData{
+    .playerName{
+        font-size: 3rem;
+        letter-spacing: 0.8rem;       
+    }
+    }
+}
+@media (max-width:340px){
+    .playerData{
+    .playerName{
+        font-size: 2rem; 
+        letter-spacing: 0.5rem;   
+    }
+    }
+}

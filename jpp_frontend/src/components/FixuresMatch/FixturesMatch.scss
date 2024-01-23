@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+$family:'Play', sans-serif;
+$pinkColor : #e34573;
+
+
+.fontFamilyMain{
+    font-family: $family;
+}
+.fontFamilyColor{
+    background-color: $pinkColor;
+}
+.fixturesHeading{
+    max-width: 75vw;
+    height: 7rem;
+    font-family: $family;
+    background-color: $pinkColor;
+}
+.accordd{
+    display: flex !important;
+    justify-content: center !important;
+}
+.accordingDetails{
+    background-color: #54c0e7;
+    .detailsacco{
+        min-width: 30vw;
+    }
+}
+@media (max-width:540px){
+    .fixturesHeading{
+        height: 11rem;
+    }
+}
+@media (max-width:310px){
+    .fixturesHeading{
+        height: 18rem;
+    }
+}

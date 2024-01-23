@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+.playerCardCover{
+    padding: 3rem;
+    font-family: 'Play', sans-serif;
+    font-style: italic;
+    cursor: pointer;
+    .playerCard{
+        background-color: #e34573;
+    }
+    .playerNameColor{
+        background-color: #04358d;
+        .jerseyNo{
+            color: #4dbee3;
+            text-shadow: 1px 2px #e34573
+        }
+        .playerRole{
+            font-size: 0.8rem;
+        }
+    }
+        &:hover{
+          border: 1px solid black;
+        }
+      
+}
+
+
